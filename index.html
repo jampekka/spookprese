@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Ennakoiva kontrolli</title>
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
+	
+	<style type="text/css">
+* {
+text-shadow: 3px 3px 1px #000000 !important;
+}
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+}
+	</style>
+	</head>
+<body>
+
+<video id="bgvid" autoplay loop>
+	<source src="cats.mp4" type="video/mp4">
+</video>
+
+<div class="reveal"><div class="slides">
+<section>
+	<h1>Ennakoiva kontrolli</h1>
+	<h3>Jami Pekkanen & Heikki Summala</h3>
+</section>
+
+<section><h4>Ennakoinakoiva kontrolli!?!</h4></section>
+
+<section data-transition="default fade" data-transition-speed="slow">
+	<h4>tapahtuma - ennakointi = säikähdys</h4>
+</section>
+
+<section data-transition="fade default" data-transition-speed="slow">
+	<h4>tapahtuma - säikähdys = ennakointi</h4>
+</section>
+
+<section>
+	<img src="penaltykick.png">
+</section>
+
+<section>
+	<img src="capture.svg" style="background-color: white">
+</section>
+
+<section>
+	<img class="stretch" src="gsr.svg" style="background-color: white"></img>
+</section>
+
+<section>
+	<img class="stretch" src="pupil.svg"></img>
+</section>
+
+<section>
+	<img class="stretch" src="oculus.jpg">
+</section>
+
+<section data-transition="zoom" data-transition-speed="fast">
+	<h1>Kiitos</h1>
+	<img class="stretch" src="ghost.svg" style="background: none; border: none; box-shadow: none; opacity: 0.5">
+</section>
+
+</div></div>
+<script src="reveal.js/lib/js/head.min.js"></script>
+<script src="reveal.js/js/reveal.js"></script>
+
+<script>
+	// Full list of configuration options available at:
+	// https://github.com/hakimel/reveal.js#configuration
+	Reveal.initialize({
+		controls: false,
+		progress: true,
+		history: true,
+		center: true,
+
+		transition: 'slide', // none/fade/slide/convex/concave/zoom
+	});
+</script>
+
+</body>
+</html>
+
+
